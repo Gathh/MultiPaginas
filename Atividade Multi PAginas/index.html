@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <style>
+        button{
+            border-color: rgb(255, 255, 255);
+            background-color: rgb(72, 3, 125);
+            color: rgb(255, 255, 255);
+            height: 50px;
+            width: 120px;
+        }
+        body{
+            text-align: center;
+            background-size: cover;
+            background-image: url(https://media.tenor.com/xfsFj7A6lJMAAAAd/galaxy.gif);
+        }
+        .T{
+            color: white;
+        }
+        .PP{
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 class="PP">Página Principal</h1>
+    <a class="T" href="Temperaturas.html">Temperaturas</a> <br><br>
+    <button onclick="sobremim()">Sobre mim</button> <br><br>
+    <button onclick="interesses()">Interesses</button> <br><br>
+    <button onclick="vlwri()">Te amo ri</button>
+</body>
+</html>
+
+<script>
+function sobremim(){
+    window.location.href = "sobremim.html"
+}
+function interesses(){
+    window.open("Interesses.html")
+}
+function vlwri(){
+    window.open("vlwri.html") 
+}
+</script>
